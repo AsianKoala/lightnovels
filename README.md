@@ -6,7 +6,7 @@ Setup guide:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- `git_folder_handler.py` and `pdf_folder_maker.py` are in your repository  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- You have initialized your repo  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- You have created a remote with name "origin" and branch "master"  
-2. Set amount of chunks in `git_folder_handler.py` to your desired amount TOOD() chunk size instead
+2. Set amount of chunks in `git_folder_handler.py` to your desired number
 3. Run `git_folder_handler.py`
 4. The program will prompt you if you wish to stop. If not, it will continue chunking through your entire repository.
 
