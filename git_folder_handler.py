@@ -14,7 +14,6 @@ chunks.append(folders[qrtr*4:])
 
 for i,chunk in enumerate(chunks):
     for ln in chunk:
-        print(ln)
         os.system('git add "{}"'.format(ln))
     os.system('git commit -m "chunk #{}, updating the following: {}'.format(i,chunk))
     os.system('git push')
